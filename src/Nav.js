@@ -3,7 +3,7 @@ import ReactDOM from 'react-dom'
 import Web3 from 'web3'
 
 class Nav extends React.Component {
-	constructor () {
+	constructor (props) {
 		super()
         window.web3 = new Web3(web3.currentProvider)
         this.state = {
@@ -21,9 +21,9 @@ class Nav extends React.Component {
 	render () {
 		return (
 			<div className="nav">
-                <button>My Code</button>
-                <button>Add Code</button>
-                <div className="color-white">{this.state.account}</div>
+                <button onClick={() => this.props.showMyCodes(true)}>My Code</button>
+                <button onClick={() => this.props.showMyCodes(false)}>Add Code</button>
+                <div className="color-grey">{this.state.account}</div>
             </div>
 		)
 	}
