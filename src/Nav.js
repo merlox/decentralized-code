@@ -23,7 +23,7 @@ class Nav extends React.Component {
 			<div className="nav">
                 <button>My Code</button>
                 <button>Add Code</button>
-                <div>{this.state.account}</div>
+                <div className="color-white">{this.state.account}</div>
             </div>
 		)
 	}

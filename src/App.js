@@ -13,7 +13,6 @@ class App extends React.Component {
 		return (
 			<div>
 				<Nav/>
-				Hi
 				<AddCode/>
 			</div>
 		)
