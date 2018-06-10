@@ -1,5 +1,8 @@
 import React from 'react'
 import ReactDOM from 'react-dom'
+import Nav from './Nav'
+import AddCode from './AddCode'
+import './index.styl'
 
 class App extends React.Component {
 	constructor () {
@@ -8,7 +11,11 @@ class App extends React.Component {
 
 	render () {
 		return (
-			<div>Hi</div>
+			<div>
+				<Nav/>
+				Hi
+				<AddCode/>
+			</div>
 		)
 	}
 }
