@@ -5,7 +5,7 @@
   "main": "App.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "http-server dist/",
+    "start": "node server.js",
     "install": "npm i -S babel-core babel-loader babel-polyfill babel-preset-env babel-preset-react babel-require css-loader html-webpack-plugin react react-dom stylus style-loader stylus-loader webpack"
   },
   "keywords": [],
