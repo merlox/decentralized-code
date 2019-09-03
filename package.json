@@ -1,31 +1,37 @@
 {
-  "name": "airdrop-erc20",
-  "version": "1.0.0",
-  "description": "",
-  "main": "App.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node server.js",
-    "install": "npm i -S babel-core babel-loader babel-polyfill babel-preset-env babel-preset-react babel-require css-loader html-webpack-plugin react react-dom stylus style-loader stylus-loader webpack"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "dependencies": {
-    "babel-core": "^6.26.3",
-    "babel-loader": "^7.1.4",
-    "babel-polyfill": "^6.26.0",
-    "babel-preset-env": "^1.7.0",
-    "babel-preset-react": "^6.24.1",
-    "babel-require": "^1.0.1",
-    "css-loader": "^0.28.11",
-    "html-webpack-plugin": "^3.2.0",
-    "react": "^16.4.0",
-    "react-dom": "^16.4.0",
-    "style-loader": "^0.21.0",
-    "stylus": "^0.54.5",
-    "stylus-loader": "^3.0.2",
-    "web3": "^1.0.0-beta.34",
-    "webpack": "^4.12.0"
-  }
+    "name": "airdrop-erc20",
+    "version": "1.0.0",
+    "description": "",
+    "main": "App.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "start": "node server.js",
+        "install": "npm i -S babel-core babel-loader babel-polyfill babel-preset-env babel-preset-react babel-require css-loader html-webpack-plugin react react-dom stylus style-loader stylus-loader webpack"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "devDependencies": {
+        "babel-core": "^6.26.3",
+        "babel-loader": "^7.1.4",
+        "babel-polyfill": "^6.26.0",
+        "babel-preset-env": "^1.7.0",
+        "babel-preset-react": "^6.24.1",
+        "babel-require": "^1.0.1",
+        "css-loader": "^0.28.11",
+        "html-webpack-plugin": "^3.2.0",
+        "react": "^16.4.0",
+        "react-dom": "^16.4.0",
+        "style-loader": "^0.21.0",
+        "stylus": "^0.54.5",
+        "stylus-loader": "^3.0.2",
+        "web3": "^1.0.0-beta.34",
+        "webpack": "^4.12.0"
+    },
+    "dependencies": {
+        "body-parser": "^1.19.0",
+        "express": "^4.17.1",
+        "yargs": "^14.0.0"
+    }
+
 }
